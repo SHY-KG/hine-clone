@@ -1,0 +1,40 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* Global */
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/no-mobile.css";
+@import "components/top-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/home.css";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    border-color: var(--black);
+    border: 8px solid;
+    margin: 5px;
+    height: 97vh;
+    border-radius: 27px;
+}
+
+.container {
+    height: 97vh;
+    background-color: var(--eevee-color);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        height: -webkit-fill-available;
+    }
+}

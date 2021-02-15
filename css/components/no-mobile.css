@@ -1,0 +1,21 @@
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--eevee-color);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    left: 0;
+    top: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    #no-mobile {
+        display: none;
+    }
+}
