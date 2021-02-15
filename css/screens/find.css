@@ -1,3 +1,7 @@
+.find-contents {
+    margin-bottom: 30px;
+}
+
 .find-top {
     display: flex;
     flex-direction: column;

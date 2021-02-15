@@ -23,12 +23,12 @@ body {
     border-color: var(--black);
     border: 8px solid;
     margin: 5px;
-    height: 97vh;
+    height: 100%;
     border-radius: 27px;
 }
 
 .container {
-    height: 97vh;
+    height: 100%;
     background-color: var(--eevee-color);
     border-radius: 18px;
     display: flex;

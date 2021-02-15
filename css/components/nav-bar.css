@@ -1,6 +1,4 @@
 .nav {
-    position: absolute;
-    bottom: 0;
     width: 99.8%;
     background-color: var(--eevee-white);
     padding: 20px 50px;
