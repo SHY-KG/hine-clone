@@ -1,0 +1,99 @@
+.messages-contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.messages-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--eevee-white);
+}
+
+.messages-top__title {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.messages-top__title__icon i {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.messages-top__line {
+    margin-top: 14px;
+    width: 99.5%;
+    border: 1px solid var(--eevee-white);
+}
+
+.messages-top__search {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 92%;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.messages-top__search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--eevee-basic);
+}
+
+.messages-top__search input::placeholder {
+    padding-left: 40px;
+}
+
+.messages-top__search i:first-child {
+    position: absolute;
+    top: 8px;
+    left: 35px;
+    color: var(--eevee-brown);
+}
+
+.messages-top__search i:last-child {
+    position: absolute;
+    top: 8px;
+    right: 35px;
+    color: var(--eevee-brown);
+}
+
+.messages-top__conversations {
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.messages-top__conversations__friends {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.messages-top__conversations__friends > img {
+    width: 50px;
+    height: 50px;
+    background-color: var(--eevee-white);
+    border-radius: 50%;
+}
+
+.messages-top__conversations__friends div:nth-child(2) {
+    margin-left: 18px;
+    color: var(--eevee-white);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.messages-top__conversations__friends div:nth-child(2) > div:last-child {
+    font-weight: 400;
+    margin-left: 0;
+    color: var(--eevee-basic);
+}

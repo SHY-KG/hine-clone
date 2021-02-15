@@ -7,6 +7,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    background-color: var(--eevee-white);
 }
 
 .home-profile > div:first-child {
@@ -32,6 +33,7 @@
     width: 42px;
     height: 17px;
     padding-left: 7px;
+    padding-top: 4px;
 }
 
 .home-profile > div:last-child {
@@ -87,7 +89,7 @@
 }
 
 .home-friends {
-    margin-left: 15px;
+    margin-left: 10px;
     color: var(--eevee-white);
 }
 
@@ -96,7 +98,8 @@
 .home-friends__firends {
     display: flex;
     justify-content: flex-start;
-    margin: 18px;
+    margin: 20px;
+    margin-left: 13px;
     cursor: pointer;
 }
 
@@ -123,7 +126,7 @@
 }
 
 .home-friends__list {
-    margin-left: 18px;
+    margin-left: 15px;
 }
 
 .home-friends__list-pub,
@@ -147,6 +150,7 @@
 .home-friends__list_recommend div:nth-child(2),
 .home-friends__list_friends div:nth-child(2) {
     margin-left: 18px;
+    font-weight: 600;
 }
 
 .home-friends__list-pub div:last-child,
