@@ -75,6 +75,12 @@
     display: flex;
     align-items: center;
     margin-bottom: 18px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.messages-top__conversations__friends:hover {
+    opacity: 0.6;
 }
 
 .messages-top__conversations__friends > img {

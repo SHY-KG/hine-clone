@@ -12,6 +12,15 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--eevee-white);
+    cursor: pointer;
+}
+
+.home-profile__img {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-profile__img:hover {
+    opacity: 0.6;
 }
 
 .home-profile > div:first-child {
@@ -30,6 +39,15 @@
     justify-content: center;
 }
 
+.home-profile__name div:first-child {
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-profile__name div:first-child:hover {
+    opacity: 0.6;
+}
+
 .home-profile__name div:last-child {
     margin-top: 4px;
     border: 1px solid var(--eevee-white);
@@ -38,6 +56,12 @@
     height: 17px;
     padding-left: 7px;
     padding-top: 4px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-profile__name div:last-child:hover {
+    opacity: 0.6;
 }
 
 .home-profile > div:last-child {
@@ -54,6 +78,15 @@
     align-items: center;
     color: var(--eevee-white);
     margin-right: 15px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+.home-profile__notification:hover,
+.home-profile__plus:hover,
+.home-profile__config:hover,
+.home-profile__language:hover,
+.home-search-bar:hover {
+    opacity: 0.6;
 }
 
 .home-search-bar {
@@ -64,6 +97,12 @@
     margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-search-bar:hover {
+    opacity: 0.6;
 }
 
 .home-search-bar input {
@@ -72,9 +111,6 @@
     border-radius: 10px;
     border: none;
     background-color: var(--eevee-basic);
-}
-
-.home-search-bar input::placeholder {
     padding-left: 40px;
 }
 
@@ -139,6 +175,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 18px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-friends__list-pub:hover,
+.home-friends__list_recommend:hover,
+:hover .home-friends__list_friends:hover {
+    opacity: 0.6;
 }
 
 .home-friends__list-pub > img,
@@ -186,6 +230,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-service__icon i:hover,
+.home-service__icon-two i:hover {
+    opacity: 0.6;
 }
 
 .home-service__icon i:first-child,
@@ -212,5 +263,5 @@
 
 .home-service__icon-two > div > div {
     margin-top: 16px;
-    margin-left: 12px;
+    margin-left: 20px;
 }

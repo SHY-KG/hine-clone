@@ -212,6 +212,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wallet-card__info__card:hover {
+    opacity: 0.6;
 }
 
 .wallet-card__info__card i {
