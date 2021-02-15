@@ -1,0 +1,220 @@
+.wallet-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--eevee-white);
+    margin-top: 10px;
+}
+
+.wallet-top__title {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.wallet-top__title__icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wallet-top__title__icon i,
+.wallet-top__title__icon div {
+    margin-right: 22px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wallet-info {
+    width: 95%;
+    border: 2px var(--eevee-basic);
+    border-radius: 10px;
+    height: 190px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: var(--eevee-white);
+}
+
+.wallet-info__my {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-info__my > div:first-child {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.wallet-info__my > div:first-child i {
+    font-size: 32px;
+    color: var(--eevee-brown);
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wallet-info__my > div:first-child i:hover {
+    opacity: 0.6;
+}
+
+.wallet-info__my > div:first-child > div,
+.wallet-info__my > div:first-child > div:nth-child(2) > i {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.wallet-info__my__payicon {
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+.wallet-info__my__payicon i {
+    margin-right: 25px;
+    color: var(--eevee-brown);
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wallet-info__my__payicon i:hover {
+    opacity: 0.6;
+}
+
+.wallet-info__line {
+    margin-top: 26px;
+    width: 99.5%;
+    border: 1px solid var(--eevee-brown);
+}
+
+.wallet-info__icon {
+    color: var(--eevee-brown);
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    align-items: center;
+}
+
+.wallet_info__icon__send-money,
+.wallet_info__icon__Report,
+.wallet_info__icon__apple-pay {
+    display: flex;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wallet_info__icon__send-money:hover,
+.wallet_info__icon__Report:hover,
+.wallet_info__icon__apple-pay:hover {
+    opacity: 0.6;
+}
+
+.wallet_info__icon__send-money i,
+.wallet_info__icon__Report i,
+.wallet_info__icon__apple-pay i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.wallet_info__icon__send-money div,
+.wallet_info__icon__Report div,
+.wallet_info__icon__apple-pay div {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.wallet-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    color: var(--eevee-brown);
+}
+
+.wallet-icon i {
+    font-size: 30px;
+}
+.wallet-icon div {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.wallet-icon > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wallet-icon > div:hover {
+    opacity: 0.6;
+}
+
+.wallet-event {
+    margin-top: 35px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.wallet-event img {
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.wallet-event > div:last-child > div:first-child {
+    font-size: 20px;
+    margin-top: 20px;
+    color: var(--eevee-brown);
+    margin-bottom: 10px;
+}
+
+.wallet-event > div:last-child > div:nth-child(2),
+.wallet-event > div:last-child > div:last-child {
+    font-size: 14px;
+    color: var(--eevee-basic);
+}
+
+.wallet-card {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-card__title {
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--eevee-brown);
+}
+
+.wallet-card__more {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    color: var(--eevee-brown);
+}
+
+.wallet-card__info {
+    margin-top: 30px;
+    display: flex;
+    color: var(--eevee-brown);
+}
+
+.wallet-card__info__card {
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.wallet-card__info__card i {
+    margin-bottom: 30px;
+    font-size: 42px;
+    border: 2px solid var(--eevee-brown);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}

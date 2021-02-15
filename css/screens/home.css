@@ -181,17 +181,24 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .home-service__icon i:first-child,
 .home-service__icon-two i {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .home-service__icon i,
 .home-service__icon-two i {
     margin-right: 30px;
     font-size: 40px;
+}
+.home-service__icon > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-service__icon > div > div {

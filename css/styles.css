@@ -16,6 +16,7 @@
 @import "screens/home.css";
 @import "screens/messages.css";
 @import "screens/find.css";
+@import "screens/wallet.css";
 
 body {
     font-family: "Open Sans", sans-serif;
