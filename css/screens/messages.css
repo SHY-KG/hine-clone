@@ -21,6 +21,11 @@
     margin-right: 22px;
     font-size: 20px;
     cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.messages-top__title__icon i:hover {
+    opacity: 0.6;
 }
 
 .messages-top__line {
@@ -46,10 +51,12 @@
     border-radius: 10px;
     border: none;
     background-color: var(--eevee-basic);
+    padding-left: 40px;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.messages-top__search input::placeholder {
-    padding-left: 40px;
+.messages-top__search input:hover {
+    opacity: 0.6;
 }
 
 .messages-top__search i:first-child {
