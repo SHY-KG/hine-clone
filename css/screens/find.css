@@ -1,0 +1,97 @@
+.find-contents {
+}
+
+.find-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.find-top__friends,
+.find-top__group,
+.find-top__openchat {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.find-top__friends i,
+.find-top__group i,
+.find-top__openchat i {
+    font-size: 30px;
+    background-color: var(--eevee-basic);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.find-top__friends div,
+.find-top__openchat div {
+    margin-left: 20px;
+    color: var(--eevee-white);
+}
+
+.find-top__group div {
+    margin-left: 15px;
+    color: var(--eevee-white);
+}
+
+.find-top__line {
+    margin-top: 14px;
+    width: 99.5%;
+    border: 1px solid var(--eevee-white);
+}
+
+.find-recommend__title {
+    margin: 20px 0;
+    font-size: 20px;
+    margin-left: 20px;
+    color: var(--eevee-white);
+}
+
+.find-recommend__account {
+    margin-left: 20px;
+}
+
+.find-recommend__account__img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-right: 20px;
+}
+
+.find-recommend__account__img img {
+    width: 50px;
+    height: 50px;
+    background-color: var(--eevee-white);
+    border-radius: 50%;
+}
+
+.find-recommend__account__img div:nth-child(2) {
+    margin-left: 18px;
+    color: var(--eevee-white);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.find-recommend__account__img div:nth-child(2) > div:last-child {
+    margin-top: 4px;
+    font-weight: 400;
+    margin-left: 0;
+    color: var(--eevee-basic);
+}
+
+.find-contents-break {
+    padding: 6px 0;
+}
+
+.find-top > a > i {
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    color: var(--eevee-white);
+    top: 50px;
+}

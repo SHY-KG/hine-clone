@@ -12,12 +12,12 @@
 }
 
 .messages-top__title {
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 25px;
 }
 
 .messages-top__title__icon i {
-    margin-right: 10px;
+    margin-right: 22px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -90,10 +90,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 16px;
 }
 
 .messages-top__conversations__friends div:nth-child(2) > div:last-child {
+    margin-top: 4px;
     font-weight: 400;
     margin-left: 0;
     color: var(--eevee-basic);
+    font-size: 14px;
 }
